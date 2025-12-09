@@ -103,7 +103,7 @@ console.log(percentage)
 if(percentage >= 80)
 {
    console.log("Total marks : " + total_mark)
-   
+
    console.log("Marks obtained : " + obtain_marks_total)
    console.log("Grade : A+ " )
    console.log("Remarks : Excellent")
@@ -131,3 +131,19 @@ if(percentage <= 60)
    console.log("Remarks : Sorry")
 }
 
+// Q7
+
+var secretNumber = 8;
+var userNumber = Number(prompt("Enter Number Between 1 and 10!"))
+if( userNumber === secretNumber)
+{
+    console.log("Bingo! Correct Answer");
+}
+if(userNumber+1 === secretNumber)
+{
+    console.log("Close enough to the correct answer")
+}
+else
+{
+    console.log("Try again!")
+}
