@@ -147,3 +147,80 @@ else
 {
     console.log("Try again!")
 }
+
+// Q8
+
+var secretNumber = 8;
+var userNumber = Number(prompt("Enter Number Between 1 and 10!"))
+if( userNumber === secretNumber)
+{
+    console.log("Bingo! Correct Answer");
+}
+if(userNumber+1 === secretNumber)
+{
+    console.log("Close enough to the correct answer")
+}
+else
+{
+    console.log("Try again!")
+}
+
+// Q9
+
+var userNumber = Number(prompt("Enter your Number to check its 'Even' or 'Odd' "));
+
+if((userNumber % 2)=== 0)
+    {
+    console.log("Your Number is Even ")
+}
+else
+{
+    console.log("Your Number is Odd ")
+}
+
+// Q10
+
+var Temp = Number(prompt("Enter the Tempreture Please!"))
+if(Temp >= 40)
+{
+    console.log("It is too hot outside.");
+}
+if(Temp >= 30)
+{
+    console.log("The Weather today is Normal.");
+}
+if(Temp >= 20)
+{
+    console.log("Today's Weather is cool.");
+}
+if(Temp >= 10)
+{
+    console.log("OMG! Today's weather is so Cool.");
+}
+
+// Q11
+
+var user_Number01 = Number(prompt("Enter your first Number to Calculation"));
+var user_Number02 = Number(prompt("Enter your Second Number to Calculation"));
+var user_Operator = prompt("Enter desire Symbole for Calculation");
+
+if(user_Operator === "+")
+{
+    console.log("Addition : "+ (user_Number01+user_Number02));
+}
+if(user_Operator === "-" )
+{
+    console.log("Subtraction : "+(user_Number01-user_Number02));
+}
+if(user_Operator === "*" )
+{
+    console.log("Muiltiplication : "+(user_Number01*user_Number02));
+}
+if(user_Operator === "/" )
+{
+    console.log("Divide : "+(user_Number01/user_Number02));
+}
+if(user_Operator === "%" )
+{
+    console.log("Remainder : "+(user_Number01%user_Number02));
+}
