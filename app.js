@@ -1,4 +1,5 @@
 // Q1
+
 var city = prompt ("Enter your city");
 if ( city === "Karachi") {
     console.log(" Welcome tocity of lights");
@@ -6,8 +7,8 @@ if ( city === "Karachi") {
     console.log ("bye");
 }
 
-
 // Q2
+
 var gender = prompt ("Enter your gender");
 if (city === "male") {
     console.log(" Hello sir");
@@ -16,8 +17,8 @@ if  (gender === "female"){
     console.log("Hello Ma'am");
 }
 
-
 // Q3
+
 var signalcolor = prompt("Enter your color");
 if (signalcolor === "Red"){
     console.log("Must stop")
@@ -33,8 +34,8 @@ if (signalcolor === "Green"){
     console.log("Go")
 }
 
-
 // Q4
+
 var fuel_In_liter;
 fuel_In_liter = Number(prompt("Enter your Fuel Reading! between 0.1 and  1"));
 
@@ -44,8 +45,8 @@ if(fuel_In_liter<=0.25);
   console.log("Please refill the fuel!");
 }
 
-
 // Q5
+
 var a =4;
 if(++a === 5);
 {
@@ -90,6 +91,7 @@ alert("car is smaller than cat");
 }
 
 // Q6
+
 var total_mark = 300;
 
 var subject01_obtain =Number(prompt("enter marks of first Subject!"))
